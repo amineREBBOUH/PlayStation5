@@ -40,6 +40,7 @@ function Nav() {
     return(
         <>
         <nav>
+          <button id="beta">Beta</button>
           <div className="div1">
             <img src={logo} alt="" />
             <ul>
