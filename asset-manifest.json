@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PlayStation5/static/css/main.07f2cb8e.css",
+    "main.css": "/PlayStation5/static/css/main.03b03204.css",
     "main.js": "/PlayStation5/static/js/main.b55e7767.js",
     "static/media/Play2.jpg": "/PlayStation5/static/media/Play2.cdcb13098baa834d84c5.jpg",
     "static/media/pict1.png": "/PlayStation5/static/media/pict1.6f66dc045883a75d7342.png",
@@ -52,11 +52,11 @@
     "static/media/New00.png": "/PlayStation5/static/media/New00.f6cbda332abc30aabda9.png",
     "static/media/C.png": "/PlayStation5/static/media/C.aed309885510c0f93417.png",
     "index.html": "/PlayStation5/index.html",
-    "main.07f2cb8e.css.map": "/PlayStation5/static/css/main.07f2cb8e.css.map",
+    "main.03b03204.css.map": "/PlayStation5/static/css/main.03b03204.css.map",
     "main.b55e7767.js.map": "/PlayStation5/static/js/main.b55e7767.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f2cb8e.css",
+    "static/css/main.03b03204.css",
     "static/js/main.b55e7767.js"
   ]
 }
