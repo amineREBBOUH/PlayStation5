@@ -27,6 +27,7 @@
     width: 90%;
     position: relative;
     overflow-x: hidden;
+    gap: 20px;
 }
 #history::-webkit-scrollbar {
     display: none;
@@ -125,22 +126,27 @@ border-radius: 15% /40%;
 @media screen and (max-width: 650px) {
     #history{
        height: 400px;
-       width: 100%;
+       width: 90%;
+       display: grid;
+    grid-auto-flow: column;
+    overflow: scroll;
+    scroll-snap-type:x mandatory;
+    }
+    #history .Hitem{
+        width: 100vw;      
     }
     .hidden{
         width: 90%;   
     }
     #history .Hitem .h{
-        width: 80%;  
+        width: 100% !important;  
         margin: auto;
+       
     }
     #history .Hitem .Hinfo{
         display: none;
-        transition: 3s all;
      }
-     #history .Hitem .h:hover div{
-      visibility: visible;
-    }
+
   }
   #ev{
     text-align: center;

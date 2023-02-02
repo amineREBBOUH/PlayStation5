@@ -21,6 +21,7 @@ function History(params) {
             <h1 id="ev">The evaluation of create PlayStation</h1>
         <div id="history0">
         <div id="history">
+            
             <div className="Hitem">
                 <div className="Hinfo">
                     <div>
