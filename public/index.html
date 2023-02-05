@@ -18,4 +18,13 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     </body>
+    <script>
+      let title=document.title;
+      window.addEventListener("blur",()=>{
+        document.title="come back...😀😍💗";
+      })
+      window.addEventListener("focus",()=>{
+        document.title=title;
+      })
+    </script>
   </html>
