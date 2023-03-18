@@ -4,7 +4,7 @@ import logo from "../Media/logo.png"
 function Nav() {
     const rotate=(e)=>{
       e.preventDefault();
-      $(".sudiv").slideUp();
+      //$(".sudiv").slideUp();
         console.log(e.target);
     const elemnts=document.getElementsByClassName("fa-angle-right");
     const a=document.getElementsByClassName("a");
@@ -56,11 +56,11 @@ function Nav() {
              <span><i className="fa fa-search" aria-hidden="true"></i></span>
              <span><i className="fa fa-bars" aria-hidden="true"id="bars"></i></span>
           </div>
-        <div className="sudiv G" onMouseLeave={(e)=>slide(e)}></div>
-        <div className="sudiv M" onMouseLeave={(e)=>slide(e)}></div>
-        <div className="sudiv S" onMouseLeave={(e)=>slide(e)}></div>
-        <div className="sudiv N" onMouseLeave={(e)=>slide(e)}></div>
-        <div className="sudiv Sh" onMouseLeave={(e)=>slide(e)}></div>
+        <div className="sudiv G" onMouseLeave={(e)=>slide(e)}>G</div>
+        <div className="sudiv M" onMouseLeave={(e)=>slide(e)}>M</div>
+        <div className="sudiv S" onMouseLeave={(e)=>slide(e)}>S</div>
+        <div className="sudiv N" onMouseLeave={(e)=>slide(e)}>N</div>
+        <div className="sudiv Sh" onMouseLeave={(e)=>slide(e)}>SH</div>
         </nav>
       
         </>
